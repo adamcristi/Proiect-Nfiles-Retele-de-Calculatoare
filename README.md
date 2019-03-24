@@ -1,1 +1,2 @@
-# Proiect-Nfiles-Retele-de-Calculatoare
+# Nfiles
+Nfiles project, accomplished for Computer Networks course, is about creating a server that is capable to take all the tasks from the clients in a concurrent way. These tasks consist of finding some information related files stored on different machines which can't communicate directly with the clients. This information is stocked the same on all the machines so it can be a chance to find the file you searched for in at least one machine. Only the server is allowed to communicate with the machines. This concept can be seen as a drive, just as the only difference is that the client only asks information about that file and not its content. The project was implemented in C using an API based on BSD sockets.
